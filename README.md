@@ -1,91 +1,60 @@
-Hi, I’m Hariharan 👋
+# Hi, I'm Hariharan 👋
 
-I’m an AI / Machine Learning engineer who enjoys building practical, end-to-end systems — from data ingestion and modeling to deployment and monitoring.
+AI/ML Engineer building production-ready machine learning systems.
 
-I’m especially interested in applied ML, GenAI systems, and production-ready pipelines, and I like working on problems where models need to be reliable, explainable, and useful in the real world.
+I work on end-to-end ML projects — from data pipelines and model training to deployment and monitoring. I focus on applied ML, generative AI, and systems that are reliable and useful in production.
 
-Most of the projects here started as curiosity and ended as working systems.
+## What I Do
 
-What I work on
+- **Machine Learning & Deep Learning** — Building and evaluating models with a focus on real-world deployment
+- **Generative AI & RAG** — Retrieval pipelines, fine-tuning, and multi-agent systems
+- **MLOps** — APIs, monitoring, automated retraining, and production infrastructure
+- **Rapid Implementation** — I learn by building and shipping working systems
 
-Machine Learning & Deep Learning
-Building and evaluating models with a focus on robustness and real-world constraints.
+## Projects
 
-Generative AI & RAG Systems
-Designing retrieval pipelines, fine-tuning models, and building agent-based workflows.
+### Drift-Pipeline — Self-Healing MLOps System
+End-to-end pipeline that detects data drift and automatically retrains models when performance degrades.
 
-End-to-End Engineering
-APIs, data pipelines, model serving, monitoring, and reproducibility — not just notebooks.
+**Tech:** FastAPI, Prefect, Evidently AI, Docker, PostgreSQL  
+**Outcome:** Production API with automated drift detection and retraining
 
-Learning by Building
-I pick up new tools quickly and prefer learning through implementation.
+### AI Deep Research Agent
+Multi-agent research system with structured planning, execution, and credibility verification.
 
-Drift-Pipeline — Self-Healing MLOps System
+**Tech:** LangGraph, Tavily API, Groq, async Python  
+**Outcome:** Automated research reports with source credibility scoring
 
-An end-to-end MLOps pipeline that automatically detects data drift and retrains models when performance degrades.
+### AI Math Solver — Fine-Tuned SLM
+Fine-tuned a 1.5B parameter model for grade-school math reasoning.
 
-Tech: FastAPI, Prefect, Evidently AI, Docker, PostgreSQL
+**Tech:** PyTorch, Unsloth, QLoRA, Qwen2.5-1.5B  
+**Outcome:** Improved accuracy from 45% → 70% (82% with ensemble voting)
 
-Focus: Data drift detection, automated retraining, schema validation
+### VisionGuard — Deepfake Detection
+Computer vision system for detecting synthetic and manipulated images with explainability.
 
-Outcome: Production-ready inference API with monitoring and retraining triggers
+**Tech:** PyTorch, DINOv2, GradCAM, ONNX  
+**Outcome:** 94.3% accuracy with <300ms inference latency
 
-AI Deep Research Agent
+## Tech Stack
 
-A multi-agent system designed to perform structured, long-running research with credibility checks.
+**Languages:** Python, SQL, C  
+**ML/DL:** PyTorch, TensorFlow, scikit-learn, OpenCV  
+**GenAI:** Hugging Face, LangChain, LangGraph, Vector DBs  
+**MLOps:** FastAPI, Docker, Git, GitHub Actions, Prefect  
+**Data:** Pandas, SQL, Streamlit, Power BI
 
-Tech: LangGraph, Tavily API, Groq, async Python
+## How I Work
 
-Focus: Planner–Researcher–Reviewer workflow, async execution, caching
+- Clean, maintainable code with proper documentation
+- Focus on understanding why models work, not just that they work
+- Simple solutions unless complexity is justified
+- End-to-end ownership from development to deployment
 
-Outcome: Generated higher-quality research outputs with source credibility scoring
+## Connect
 
-AI Math Solver — Fine-Tuned Small Language Model
+**LinkedIn:** [linkedin.com/in/hariharan9597](https://www.linkedin.com/in/hariharan9597)  
+**Email:** heyhariharan.r@gmail.com
 
-Fine-tuned a compact language model for grade-school math reasoning.
-
-Tech: PyTorch, Unsloth, QLoRA, Qwen2.5-1.5B
-
-Focus: Parameter-efficient fine-tuning, self-consistency voting
-
-Outcome: Improved accuracy from ~45% → 70% (82% with majority voting)
-
-VisionGuard — Synthetic Image & Deepfake Detection
-
-A computer vision system to detect synthetic and manipulated images with explainability.
-
-Tech: PyTorch, DINOv2, GradCAM, ONNX
-
-Focus: Representation learning, explainable AI, optimized inference
-
-Outcome: 94.3% accuracy with sub-300ms ONNX deployment latency
-
-Tools & Technologies
-
-Languages: Python, SQL, C
-
-ML / DL: PyTorch, TensorFlow, scikit-learn, OpenCV
-
-GenAI: Hugging Face, LangChain/LangGraph, vector databases
-
-Backend & DevOps: FastAPI, Docker, Git, GitHub Actions
-
-Data & Visualization: Pandas, Streamlit, Power BI
-
-A bit about how I work
-
-I care about clean code, reproducibility, and clarity
-
-I try to understand why a model works, not just whether it works
-
-I prefer simple solutions unless complexity is justified
-
-I’m comfortable owning projects end-to-end
-
-Let’s connect
-
-LinkedIn: https://www.linkedin.com/in/hariharan9597
-
-Email: heyhariharan.r@gmail.com
-
-If you’re looking for someone who enjoys building real systems with ML, feel free to reach out.
+Open to opportunities building impactful ML systems.
