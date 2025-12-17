@@ -2,7 +2,7 @@
 
 AI/ML Engineer building production-ready machine learning systems.
 
-I work on end-to-end ML projects — from data pipelines and model training to deployment and monitoring. I focus on applied ML, generative AI, and systems that are reliable and useful in production.
+I work on end-to-end ML projects from data pipelines and model training to deployment and monitoring. I focus on applied ML, generative AI, and systems that are reliable and useful in production.
 
 ## What I Do
 
