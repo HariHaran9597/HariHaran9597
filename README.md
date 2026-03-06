@@ -1,6 +1,6 @@
 # Hariharan
 
-I build ML systems that actually work — not just in notebooks, but in production with real users.
+I build ML systems that actually work
 
 Right now I'm deep into applied AI: fine-tuning LLMs, building multi-agent systems, and figuring out how to make vector search fast at scale. I care about the full pipeline — from messy data to a deployed app someone can actually use.
 
