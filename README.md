@@ -1,60 +1,40 @@
-# Hi, I'm Hariharan 👋
+# Hariharan
 
-AI/ML Engineer building production-ready machine learning systems.
+I build ML systems that actually work — not just in notebooks, but in production with real users.
 
-I work on end-to-end ML projects from data pipelines and model training to deployment and monitoring. I focus on applied ML, generative AI, and systems that are reliable and useful in production.
+Right now I'm deep into applied AI: fine-tuning LLMs, building multi-agent systems, and figuring out how to make vector search fast at scale. I care about the full pipeline — from messy data to a deployed app someone can actually use.
 
-## What I Do
+IEEE published researcher. 4+ deployed projects with live demos. I ship.
 
-- **Machine Learning & Deep Learning** — Building and evaluating models with a focus on real-world deployment
-- **Generative AI & RAG** — Retrieval pipelines, fine-tuning, and multi-agent systems
-- **MLOps** — APIs, monitoring, automated retraining, and production infrastructure
-- **Rapid Implementation** — I learn by building and shipping working systems
+---
 
-## Projects
+### Things I've built recently
 
-### Drift-Pipeline — Self-Healing MLOps System
-End-to-end pipeline that detects data drift and automatically retrains models when performance degrades.
+**[Cross-Modal Product Search](https://github.com/HariHaran9597/product-image-search)** — Upload a photo OR type "red canvas shoes" → get the 5 most similar products from a 44K catalog. Uses CLIP embeddings + FAISS. 91.8% Recall@5, sub-50ms search. Model artifacts live on AWS S3. → [try it live](https://visual-search-enginee.streamlit.app/)
 
-**Tech:** FastAPI, Prefect, Evidently AI, Docker, PostgreSQL  
-**Outcome:** Production API with automated drift detection and retraining
+**[PaperTrail — Research Paper Intelligence Engine](https://github.com/HariHaran9597/PaperTrail)** — Paste an arXiv link → 5 LangGraph agents parse it, explain it at 3 levels (ELI5 → Expert), score its novelty against 5,000+ papers using FAISS, and generate an interactive concept map. Runs on Groq at $0 cost. → [try it live](https://papertraill.streamlit.app/)
 
-### AI Deep Research Agent
-Multi-agent research system with structured planning, execution, and credibility verification.
+**[Math Solver (Fine-tuned LLM)](https://github.com/HariHaran9597/Math-solver)** — Took a 1.5B param model, fine-tuned it with QLoRA on math problems. Went from 45% → 82% accuracy using chain-of-thought + majority voting across 3 reasoning paths. Runs in <2s. → [try it live](https://huggingface.co/spaces/justhariharan/Math-Solver)
 
-**Tech:** LangGraph, Tavily API, Groq, async Python  
-**Outcome:** Automated research reports with source credibility scoring
+**[Retail Demand Forecasting](https://github.com/HariHaran9597/Retail-Demand-Forecasting)** — 10.9 million transactions. XGBoost + Prophet + SHAP. 72% RMSE improvement. Built a 4-page Streamlit dashboard that store managers can actually use. → [live dashboard](https://retail-demand-forecastingg.streamlit.app/)
 
-### AI Math Solver — Fine-Tuned SLM
-Fine-tuned a 1.5B parameter model for grade-school math reasoning.
+**[Telecom Churn Prediction](https://github.com/HariHaran9597/Telecom-Churn-Prediction)** — 5 models benchmarked with MLflow. XGBoost + SMOTE gets 80%+ recall on churners. Translates predictions into ₹ revenue-at-risk so business teams actually care. FastAPI backend + Streamlit frontend. → [try it live](https://telecom-churn-predictionn.streamlit.app/)
 
-**Tech:** PyTorch, Unsloth, QLoRA, Qwen2.5-1.5B  
-**Outcome:** Improved accuracy from 45% → 70% (82% with ensemble voting)
+---
 
-### VisionGuard — Deepfake Detection
-Computer vision system for detecting synthetic and manipulated images with explainability.
+### What I reach for
 
-**Tech:** PyTorch, DINOv2, GradCAM, ONNX  
-**Outcome:** 94.3% accuracy with <300ms inference latency
+```
+python · pytorch · scikit-learn · xgboost · faiss · clip
+langchain · langgraph · hugging face · qlora · rag
+fastapi · streamlit · gradio · docker · aws s3 · mlflow
+postgresql · pinecone · chromadb
+```
 
-## Tech Stack
+---
 
-**Languages:** Python, SQL, C  
-**ML/DL:** PyTorch, TensorFlow, scikit-learn, OpenCV  
-**GenAI:** Hugging Face, LangChain, LangGraph, Vector DBs  
-**MLOps:** FastAPI, Docker, Git, GitHub Actions, Prefect  
-**Data:** Pandas, SQL, Streamlit, Power BI
+### Get in touch
 
-## How I Work
+Building something interesting? I'm open to AI/ML Engineer and Data Scientist roles.
 
-- Clean, maintainable code with proper documentation
-- Focus on understanding why models work, not just that they work
-- Simple solutions unless complexity is justified
-- End-to-end ownership from development to deployment
-
-## Connect
-
-**LinkedIn:** [linkedin.com/in/hariharan9597](https://www.linkedin.com/in/hariharan9597)  
-**Email:** heyhariharan.r@gmail.com
-
-Open to opportunities building impactful ML systems.
+**→** [rhariharan.ai@gmail.com](mailto:rhariharan.ai@gmail.com) · [LinkedIn](https://www.linkedin.com/in/hariharan9597)
