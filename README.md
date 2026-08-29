@@ -1,69 +1,54 @@
-# Hi, I'm Hari Haran
+### Hi, I'm Hari Haran — GenAI Engineer @ Wipro (AT&T MIM) | Bengaluru
 
-I build data and AI projects that go beyond a notebook: models with APIs, dashboards, retrieval systems, deployment notes, and enough structure that someone else can understand the work.
+Building **shipped & measured** GenAI + MLOps — not tutorials. **IEEE ICBSII'25** in medical image classification (31 diseases, 91.2% + Grad-CAM).
 
-I graduated in 2025 with a B.Tech in Computer and Communication Engineering. Over the last year, I have been focusing deeply on Data Science, Machine Learning, NLP, GenAI, and MLOps. I am currently based in Bengaluru and building toward Data Scientist, ML Engineer, and AI Engineer roles.
+📫 rhariharan.ai@gmail.com | [LinkedIn](https://linkedin.com/in/hariharan) | [Portfolio](https://hariharan9597.github.io/portfolio)
 
-Most of my repositories are learning experiments. The pinned projects are the ones I would actually defend in an interview.
+---
 
-## What I Like Building
+### 🚀 Featured — Shipped, Live, Measured (Hire for these)
 
-- ML systems that connect model quality with business decisions
-- Analytics projects with SQL, clear assumptions, and stakeholder-ready outputs
-- NLP and GenAI tools using RAG, agents, embeddings, and structured evaluation
-- MLOps-style projects with FastAPI, Docker, MLflow, drift checks, and retraining workflows
-- Search and recommendation systems using vector databases and multimodal embeddings
+| Project | Stack | Metric / Proof | Links |
+|---|---|---|---|
+| **🛡️ policy-auditor** | Milvus **Hybrid BM25+dense** + **BGE cross-encoder** rerank + Groq 120B + Docker | **98.6% RAGAS Faithfulness** on 16-Q golden set, **line-level citations [Doc, Page, Lines]** | [GitHub](https://github.com/HariHaran9597/policy-auditor) · [Live Demo](https://policy-auditorr.streamlit.app/) |
+| **🔄 churn-mlops-pipeline** | XGBoost + SMOTE + **MLflow** + **Evidently** + **Prefect** + **Docker** + FastAPI | **0.84 AUC / 81.5% recall**, drift detection + auto-retrain | [GitHub](https://github.com/HariHaran9597/churn-mlops-pipeline) |
+| **🎫 Support-Ticket-RAG** | FAISS + Qwen-32B + confidence refusal | **Hit@3 / Hit@5 + refusal accuracy + latency** dashboard | [GitHub](https://github.com/HariHaran9597/Support-Ticket-RAG) |
+| **🧮 LLM Math Reasoning (QLoRA)** | Qwen2.5-Math-1.5B + QLoRA + Unsloth + Gradio | **45% → 70%** (7473 GSM8K), **82%** with self-consistency voting | [GitHub](https://github.com/HariHaran9597/Math-solver) · Live Demo |
 
-## Projects I Would Talk About First
+> Recruiters: Start here. These 4 are deployed, evaluated, and documented end-to-end.
 
-### Churn MLOps Pipeline
+---
 
-An end-to-end telecom churn system with XGBoost, FastAPI, MLflow, Evidently AI drift detection, Prefect retraining, Docker, and monitoring.
+### 🛠️ Core Stack (defensible in interview)
 
-Repo: https://github.com/HariHaran9597/churn-mlops-pipeline
+**GenAI:** RAG, LangGraph / LangChain, BGE, Milvus / FAISS / Pinecone, RAGAS, Groq/OpenAI API  
+**MLOps:** FastAPI, Docker, MLflow, Evidently, Prefect, Streamlit  
+**ML:** PyTorch, HF Transformers, QLoRA, XGBoost, CLIP  
+**Cloud/Data:** GCP Vertex AI, PostgreSQL, Linux, Pandas
 
-### Retail Demand Forecasting
+---
 
-Retail demand analytics on 10.9M public transactions with Python, SQL, forecasting, SHAP explanations, and a Streamlit dashboard for inventory and staffing decisions.
+<details>
+<summary><b>📦 60+ More Builds — Experiments, Tutorials & Early Work (Archived, kept public for breadth)</b></summary>
 
-Repo: https://github.com/HariHaran9597/Retail-Demand-Forecasting
+<br>
 
-### Aspect-Based Review Intelligence
+**Agentic / RAG Experiments:** `PaperTrail` · `Data_insights_agent` · `Open-Deep-Research` · `RAG_sales_demo` · `document-search-bot` · `QA_Agent` · `Agent-Doc` · `URL_Agent` · `CRM-chatbot` · `ChatwithGithub` · `LLM_Agent` · `Flybot` · `Legal-Document-Summarizer` · `ai-debate-moderator` · `ReviewRAG` · `support-agent-rag`
 
-An NLP pipeline that uses fine-tuned RoBERTa for aspect-level sentiment, FAISS for retrieval, and a GenAI layer for querying review insights.
+**MLOps / Data:** `drift-pipeline-mlops` · `MLOps-Pipeline-for-Model-Deployment` · `Retail-Demand-Forecasting` · `Ecommerce-Analytics` · `walmart-inventory-dashboard` · `Telecom-Churn-Prediction` · `Financial-Data-Accuracy-Dashboard` · `Electricity-Price-Forecasting` · `Shipment-Delay-prediction` · `A-B_Testing` · `Credit-Card-Fraud-Detection-System`
 
-Repo: https://github.com/HariHaran9597/Aspect-Review-Intelligence
+**CV / NLP:** `product-image-search` · `VisionGuard-AI` · `Player-Re-Identification-in-Sports-Footage` · `skin-disease-classification` · `Bird_classification_using_deeplearning` · `Drowning-Detection-System` · `Aspect-Review-Intelligence`
 
-### Cross-Modal Product Search
+**Early / Archived:** `Sentinel-Self-Healing-DevOps-Agent` · `Graph-ML` · `portfolio` · `Oauth` · `Manga_Meme` · `StudySnap` · `Linklens` · `Fitness` · `Friday` · `Fitness-Pose-Checker` · `Handgesture_volumecontrol` · `AQI` · `Personal-Finance-Engine` · `Audiolearn` · `whatsapp-faq-automator` · `n8n-automations` · `Analysis-Dashboard` · `Optimizer` · `Document-Scanner-Analyzer` · `Automated-Log-Analyzer` · `Voice-Controlled-Recipe-Reader` · `AI-Resume-Builder` · `AI-Chess_Engine` · `image-description-app` · `Sentiment-Analysis` · `Signlangage_recognition` · `Tamil-Sign-Language-Recognition` · `Gesture2Speech-TamilTranslator` · `Border-Security-System-Using-Raspberry-Pi-in-IoT` · `Job-Scraping-Agent` · `Ad-Creative-Optimizer`
 
-A visual product search engine using CLIP embeddings, FAISS vector search, Streamlit, and AWS S3 artifact loading.
+*Kept public for transparency — pinned 4 above are my current bar.*
 
-Repo: https://github.com/HariHaran9597/product-image-search
+</details>
 
-### Ecommerce Analytics
+---
 
-A SQL-first analytics project covering funnel approximation, cohort retention, revenue concentration, and customer segmentation.
+### 📈 GitHub Stats
 
-Repo: https://github.com/HariHaran9597/Ecommerce-Analytics
+*78 repos · 6 stars · Focus: 4 shipped systems > 60 experiments*
 
-### FPL AI Copilot
-
-A multi-agent AI assistant for Fantasy Premier League decisions using LangGraph, Groq, FastAPI, React, live data retrieval, and deterministic optimization.
-
-Repo: https://github.com/HariHaran9597/fpl-ai-copilot
-
-## Tools I Use Often
-
-Python, SQL, Pandas, NumPy, Scikit-learn, XGBoost, PyTorch, TensorFlow, Hugging Face Transformers, LangChain, LangGraph, FAISS, OpenAI API, Groq, FastAPI, Streamlit, React, Docker, MLflow, Prefect, Evidently AI, PostgreSQL, DuckDB, Tableau, Power BI, AWS S3.
-
-## What I'm Improving Right Now
-
-- Writing cleaner SQL for analytics interviews
-- Strengthening Python coding speed
-- Revising ML fundamentals and model evaluation
-- Making my GitHub repos easier for recruiters and hiring managers to scan
-
-## Contact
-
-- LinkedIn: https://linkedin.com/in/hariharan9597
-- Email: rhariharan.ai@gmail.com
+> **Next:** Polishing `policy-auditor` + `churn-mlops` with live latency/cost + RAGAS reports. Building in public weekly.
