@@ -1,4 +1,4 @@
-### Hi, I'm Hari Haran — GenAI Engineer @ Wipro (AT&T MIM) | Bengaluru
+### Hi, I'm Hari Haran — GenAI Engineer @ Wipro | Bengaluru
 
 Building **shipped & measured** GenAI + MLOps — not tutorials. **IEEE ICBSII'25** in medical image classification (31 diseases, 91.2% + Grad-CAM).
 
